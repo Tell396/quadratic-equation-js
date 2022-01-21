@@ -1,6 +1,10 @@
-import "./styles.css";
-
 console.clear();
+let a = prompt('Enter A factorial');
+let b = prompt('Enter B factorial');
+let c = prompt('Enter C factorial');
+
+console.log(solution(a, b, c));
+
 
 function solution(a, b, c) {
   console.log(`a = ${a}; \nb = ${b}; \nc = ${c};`);
@@ -20,4 +24,3 @@ function solution(a, b, c) {
   }
 }
 
-console.log(solution(2, 3, 1));
