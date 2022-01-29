@@ -1,2 +1,9 @@
-# quadratic-equation
-Solving a quadratic equation using JavaScript
+# Quadratic Equation - Solving a quadratic equation with JavaScript
+
+Owner: Berezhnev Vladimir
+
+## Technologies:
+
+- JavaScript
+- HTML
+- CSS
