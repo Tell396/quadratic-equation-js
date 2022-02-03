@@ -40,6 +40,11 @@ body {
   margin-top: 35vh;
 }
 
+.container h1 span {
+  font-size: 0.5em;
+  color: grey;
+}
+
 .container div p input {
   border: none;
   font-size: 1.3em;
@@ -51,6 +56,10 @@ body {
 
 .container div input {
   text-align: center;
+}
+
+#vieta > p {
+    font-size: 18pt;
 }
 
 button {
