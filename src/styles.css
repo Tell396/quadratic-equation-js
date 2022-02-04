@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,300;1,600&family=Neonderthaw&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=The+Nautigal:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap");
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
@@ -37,7 +41,8 @@ body {
 .container {
   text-align: center;
   color: #fff;
-  margin-top: 35vh;
+  margin-top: 25vh;
+  margin-bottom: 15vh;
 }
 
 .container h1 span {
@@ -59,7 +64,7 @@ body {
 }
 
 #vieta > p {
-    font-size: 18pt;
+  font-size: 18pt;
 }
 
 button {
@@ -89,4 +94,11 @@ button:hover {
   box-shadow: inset 0px -40px 0px #8e54e9;
   color: white;
   cursor: pointer;
+}
+
+html[lang="ru"] [lang="en"] {
+  display: none;
+}
+html[lang="en"] [lang="ru"] {
+  display: none;
 }
