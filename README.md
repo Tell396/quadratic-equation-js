@@ -4,6 +4,6 @@ Owner: Berezhnev Vladimir
 
 ## Technologies:
 
-- JavaScript
+- JavaScript (first of all)
 - HTML
 - CSS
